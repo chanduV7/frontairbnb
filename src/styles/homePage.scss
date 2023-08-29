@@ -1,0 +1,66 @@
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem 0 1rem;
+    box-shadow: 0 0.1rem 0.1rem gray;
+    img{
+        width: 8rem;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        column-gap: 0.8rem;
+    }
+}
+
+.anywhere{
+    border-right: 0.5px solid gray;
+    padding-right: 0.5rem;
+}
+.search-icon{
+    background-color: rgb(255,56,92);
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+}
+
+.profile-btn{
+    &:hover{
+        box-shadow: 0 0.1rem 0.4rem;
+    }
+}
+.profile-menu{
+    width: 18%;
+    background-color: white;
+    list-style: none;
+    position: absolute;
+    top: 8%;
+    right: 4%;
+    box-shadow: 0.1rem 0.1rem 0.2rem;
+    line-height: 3rem;
+    font-size: 15px;
+    border-radius: 1rem;
+    z-index: 100;
+    li{
+        &:hover{
+            background-color: rgb(226, 223, 223);
+           }
+           font-weight: 400;
+           border-radius: 10px;
+           cursor: pointer;
+         
+    }
+}
+
+.profile-menu-disable{
+    display: none;
+}
+
+
+
+// .homePage-container{
+//     position: relative;
+// }
+

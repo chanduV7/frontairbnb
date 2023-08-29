@@ -1,0 +1,56 @@
+input{
+    border: 0;
+}
+.booking{
+  
+    transform: translateY(1rem) ;
+    position: sticky;
+    top: 0;
+    z-index: 660;
+}
+
+.buttonDown{
+    background-color: white;
+    border: none;
+    
+}
+
+.plus,.minus{
+    width: 2rem;
+    padding-left: 0.4rem;
+    font-size: 1.3rem;
+    border: 2px solid;
+    border-radius: 50%;
+    cursor: pointer;
+    &:hover{
+        background-color: gray;
+    }
+}
+
+
+.dropDownItems{
+    width: 83%;
+  transform: translateY(-20.7rem) translateX(2.2rem);
+  z-index: 100;
+  background-color: white;
+  border-radius: 14px;
+}
+.dropdown-none{
+    display: none;
+}
+
+.reserve{
+
+    button{
+          background-color: rgb(255,56,92);
+          color: white;
+          font-size: 1.2rem;
+          padding: 0.8rem 0.8rem;
+          border-radius: 10px;
+          border: none;
+          &:hover{
+            background-color: rgb(255,56,92,0.9);
+          }
+    }
+  
+}
